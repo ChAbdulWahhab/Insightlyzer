@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Data Explorer", layout="wide")
+st.set_page_config(
+    page_title="Data Explorer",
+    page_icon="line-chart.png",
+    layout="wide"
+)
 st.title("📊 Data Explorer")
 
 st.sidebar.header("Upload File")
